@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    /* padding: 0; */
+    margin: 0;  
     font-family: "Akaya Telivigala", monospace, sans-serif;
     font-size: 22px;
 }
@@ -78,4 +78,15 @@ h1{
 .btns button:last-of-type{
     grid-column: 2/4;
     grid-row: 1;
+}
+.share{ 
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.share svg{
+    height: 40px;
+    /* border-radius: 20px; */
 }
